@@ -1,0 +1,406 @@
+/* FOR ALL FILES */
+body{
+    font-family:"Tahoma", Times, serif;
+    font-size: 12px;
+	
+}
+
+
+header{
+    background-color: #286F0A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#ffffff;
+}
+
+
+.inline{
+    display: inline;
+}
+
+.headerInline{
+    display: inline;
+}
+
+
+.edit_form_btn{
+    padding: 5px;
+}
+
+#footer{
+    background-color: #4DA20F;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#ffffff;
+}
+
+#logo{
+    max-width: 60px;
+}
+
+#title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius:0;
+}
+
+
+.navbar{
+    margin-bottom: 20px;
+    padding:0px;
+    border: 0px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    background-color: #323232;
+    margin: 0px;
+    border:0px;
+}
+
+.navbar-inverse{
+    border-color:#323232;
+    background-color: #323232;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+    text-shadow: none;
+    color:#ffffff;
+    background-color: #323232;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #323232;
+}
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #323232;
+    color:#ffffff;
+}
+
+.navbar-header{
+    background-color: #323232;
+    color:#ffffff;
+}
+/* pogai */
+.navbar-inverse .navbar-toggle{
+    border:0px;
+    background-color: #323232;
+    color:#ffffff;
+}
+
+.navbar-nav>li>.dropdown-menu{
+    background-color: #323232;
+    border-top: 1px solid #323232;
+}
+
+.navbar-nav>li>.dropdown-menu a{
+    color:#fff;
+    background-color: #323232;
+}
+
+.dropdown-menu{
+    background-color: #323232;
+    border-radius: 0;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #323232;
+}
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background-color: #323232;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+    color:#fff;
+    font-family:"Tahoma", Times, serif;
+    font-size: 12px;
+}
+
+.form-control{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.navbar-brand{
+    padding:0px;
+}
+
+.row_margin{
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 5px;
+    marign-bottom: 5px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #286F0A;
+    border-color: #286F0A;
+    border-radius:0px;
+    font-family:"Tahoma", Times, serif;
+    font-size: 12px;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+    background-color: #286F0A;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #323232;
+    border-color: #323232;
+    border-radius:0px;
+
+}
+
+.btn_module_right{
+    float: right;
+}
+
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{
+    color: #fff;
+    background-color: #323232;
+    border-color: #323232;
+    border-radius:0px;
+
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover{
+    background-color: #286F0A;
+}
+
+.modal-header{
+    color:#fff;
+    background-color: #286F0A;
+}
+
+
+
+
+.btn{
+    font-family:"Tahoma", Times, serif;
+    font-size: 12px;
+    border-radius:0px;
+    white-space:normal !important;
+    word-wrap: break-word;
+}
+
+
+.btn-warning{
+    color: #fff;
+    background-color: #9f2720;
+    border-color: #9f2720;
+    border-radius:0px;
+    font-family:"Tahoma", Times, serif;
+    font-size: 12px;
+}
+
+.btn-warning.focus, .btn-warning:focus{
+    background-color: #9f2720;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #9f2720;
+    border-color: #9f2720;
+    border-radius:0px;
+}
+
+
+.btn-warning.active, .btn-warning:active, .open>.dropdown-toggle.btn-warning{
+    color: #fff;
+    background-color: #9f2720;
+    border-color: #9f2720;
+    border-radius:0px;
+
+}
+
+.btn-warning.active.focus, .btn-warning.active:focus, .btn-warning.active:hover, .btn-warning:active.focus, .btn-warning:active:focus, .btn-warning:active:hover, .open>.dropdown-toggle.btn-warning.focus, .open>.dropdown-toggle.btn-warning:focus, .open>.dropdown-toggle.btn-warning:hover{
+    background-color: #9f2720;
+}
+
+.form_subtitle{
+    color:#9f2720;
+    font-family:"Tahoma", Times, serif;
+    border-bottom: 1px solid #9f2720;
+    width: 100%;
+
+}
+
+
+
+
+
+/*STUDENTU CSS */
+
+.profile{
+    text-align: left;
+}
+
+.link{
+    color:#323232;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.profile p{
+    margin-bottom: 0px;
+}
+
+.profile-img img{
+   border-radius: 50%;
+
+    margin-bottom: 10px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #286F0A;
+    font-size: 14px;
+}
+
+.input_fields{
+    color: #9f2720;
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+.credit{
+    text-align: right;
+}
+
+.form-control{
+    font-size: 12px;
+}
+
+.all_students_btn{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.main_btn.active,
+.main_btn:active,
+.open>.dropdown-toggle.main_btn,
+.main_btn.active.focus,
+.main_btn.active:focus,
+.main_btn.active:hover,
+.main_btn:active.focus,
+.main_btn:active:focus,
+.main_btn:active:hover,
+.main_btn:hover,
+.main_btn {
+    background-color:#F0F0F0;
+    color: #286F0A;
+    font-weight: bold;
+    border:1px solid #286F0A;
+}
+
+.del_btn.active,
+.del_btn:active,
+.open>.dropdown-toggle.del_btn
+.del_btn.active.focus,
+.del_btn.active:focus,
+.del_btn.active:hover,
+.del_btn:active.focus,
+.del_btn:active:focus,
+.del_btn:active:hover,
+.del_btn:hover,
+.del_btn{
+    background-color:#fff;
+    color: #af150c;
+    font-weight: bold;
+    border:1px solid #af150c;
+}
+
+.list{
+    margin-top: 5px;
+}
+#print{
+    padding-right: 0px;
+}
+
+.student_block {
+    margin-top: 4px;
+}
+
+.input_fields:first-child{
+    border-right: 10px solid #fff;
+}
+
+.student thead tr{
+    background-color:#323232;
+    color:#fff;
+}
+
+.table_title{
+    color:#fff;
+    background-color:#286F0A;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.table>thead>tr>th{
+    border-bottom: 0;
+    border-top: 0;
+}
+
+
+/* INFORMĀCIJA PAR STUDENTU  */
+
+.part_title_first{
+    color:#fff;
+    background-color:#323232;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.part_title_second{
+    color:#fff;
+    background-color:#286F0A;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.student_bg{
+    padding-top: 10px;
+    background-color: #F0F0F0;
+}
+
+.btn_width{
+    width: 100%;
+}
